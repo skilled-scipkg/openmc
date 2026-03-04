@@ -1,0 +1,469 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "openmc",
+  "evidence": {
+    "core_skills": [
+      "openmc-releasenotes",
+      "openmc-api-and-scripting",
+      "openmc-inputs-and-modeling",
+      "openmc-io-formats",
+      "openmc-build-and-install",
+      "openmc-theory-and-methods"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/openmc-releasenotes.md",
+      "skills/.evidence/openmc-api-and-scripting.md",
+      "skills/.evidence/openmc-inputs-and-modeling.md",
+      "skills/.evidence/openmc-io-formats.md",
+      "skills/.evidence/openmc-build-and-install.md",
+      "skills/.evidence/openmc-theory-and-methods.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md",
+        "skills/openmc-advanced-topics/SKILL.md",
+        "skills/openmc-advanced-topics/references/doc_map.md",
+        "skills/openmc-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/openmc-advanced-topics/SKILL.md",
+        "skills/openmc-advanced-topics/references/doc_map.md",
+        "skills/openmc-advanced-topics/references/source_map.md",
+        "skills/openmc-api-and-scripting/SKILL.md",
+        "skills/openmc-build-and-install/SKILL.md",
+        "skills/openmc-developer-guide/SKILL.md",
+        "skills/openmc-developer-guide/references/doc_map.md",
+        "skills/openmc-developer-guide/references/source_map.md",
+        "skills/openmc-devguide/SKILL.md",
+        "skills/openmc-devguide/references/doc_map.md",
+        "skills/openmc-devguide/references/source_map.md",
+        "skills/openmc-general/SKILL.md",
+        "skills/openmc-general/references/doc_map.md",
+        "skills/openmc-general/references/source_map.md",
+        "skills/openmc-index/SKILL.md",
+        "skills/openmc-inputs-and-modeling/SKILL.md",
+        "skills/openmc-io-formats/SKILL.md",
+        "skills/openmc-license/SKILL.md",
+        "skills/openmc-license/references/doc_map.md",
+        "skills/openmc-license/references/source_map.md",
+        "skills/openmc-releasenotes/SKILL.md",
+        "skills/openmc-templates/SKILL.md",
+        "skills/openmc-templates/references/doc_map.md",
+        "skills/openmc-templates/references/source_map.md",
+        "skills/openmc-theory-and-methods/SKILL.md",
+        "skills/openmc-troubleshooting/SKILL.md",
+        "skills/openmc-troubleshooting/references/doc_map.md",
+        "skills/openmc-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/openmc-developer-guide/SKILL.md",
+        "skills/openmc-developer-guide/references/doc_map.md",
+        "skills/openmc-developer-guide/references/source_map.md",
+        "skills/openmc-devguide/SKILL.md",
+        "skills/openmc-devguide/references/doc_map.md",
+        "skills/openmc-devguide/references/source_map.md",
+        "skills/openmc-general/SKILL.md",
+        "skills/openmc-general/references/doc_map.md",
+        "skills/openmc-general/references/source_map.md",
+        "skills/openmc-license/SKILL.md",
+        "skills/openmc-license/references/doc_map.md",
+        "skills/openmc-license/references/source_map.md",
+        "skills/openmc-templates/SKILL.md",
+        "skills/openmc-templates/references/doc_map.md",
+        "skills/openmc-templates/references/source_map.md",
+        "skills/openmc-troubleshooting/SKILL.md",
+        "skills/openmc-troubleshooting/references/doc_map.md",
+        "skills/openmc-troubleshooting/references/source_map.md"
+      ],
+      "modified": [
+        "skills/openmc-api-and-scripting/SKILL.md",
+        "skills/openmc-build-and-install/SKILL.md",
+        "skills/openmc-index/SKILL.md",
+        "skills/openmc-inputs-and-modeling/SKILL.md",
+        "skills/openmc-io-formats/SKILL.md",
+        "skills/openmc-releasenotes/SKILL.md",
+        "skills/openmc-theory-and-methods/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/openmc-advanced-topics/SKILL.md",
+        "skills/openmc-advanced-topics/references/doc_map.md",
+        "skills/openmc-advanced-topics/references/source_map.md",
+        "skills/openmc-analysis-and-output/SKILL.md",
+        "skills/openmc-analysis-and-output/references/doc_map.md",
+        "skills/openmc-analysis-and-output/references/source_map.md",
+        "skills/openmc-api-and-scripting/SKILL.md",
+        "skills/openmc-api-and-scripting/references/doc_map.md",
+        "skills/openmc-api-and-scripting/references/source_map.md",
+        "skills/openmc-build-and-install/references/doc_map.md",
+        "skills/openmc-build-and-install/references/source_map.md",
+        "skills/openmc-getting-started/SKILL.md",
+        "skills/openmc-getting-started/references/doc_map.md",
+        "skills/openmc-getting-started/references/source_map.md",
+        "skills/openmc-index/SKILL.md",
+        "skills/openmc-inputs-and-modeling/references/doc_map.md",
+        "skills/openmc-inputs-and-modeling/references/source_map.md",
+        "skills/openmc-io-formats/SKILL.md",
+        "skills/openmc-io-formats/references/doc_map.md",
+        "skills/openmc-io-formats/references/source_map.md",
+        "skills/openmc-parallel-hpc/SKILL.md",
+        "skills/openmc-parallel-hpc/references/doc_map.md",
+        "skills/openmc-parallel-hpc/references/source_map.md",
+        "skills/openmc-releasenotes/references/doc_map.md",
+        "skills/openmc-releasenotes/references/source_map.md",
+        "skills/openmc-simulation-workflows/SKILL.md",
+        "skills/openmc-simulation-workflows/references/doc_map.md",
+        "skills/openmc-simulation-workflows/references/source_map.md",
+        "skills/openmc-tests/SKILL.md",
+        "skills/openmc-tests/references/doc_map.md",
+        "skills/openmc-tests/references/source_map.md",
+        "skills/openmc-theory-and-methods/SKILL.md",
+        "skills/openmc-theory-and-methods/references/doc_map.md",
+        "skills/openmc-theory-and-methods/references/source_map.md",
+        "skills/openmc-usersguide/SKILL.md",
+        "skills/openmc-usersguide/references/doc_map.md",
+        "skills/openmc-usersguide/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/openmc-advanced-topics/SKILL.md",
+        "skills/openmc-advanced-topics/references/doc_map.md",
+        "skills/openmc-advanced-topics/references/source_map.md",
+        "skills/openmc-analysis-and-output/SKILL.md",
+        "skills/openmc-analysis-and-output/references/doc_map.md",
+        "skills/openmc-analysis-and-output/references/source_map.md",
+        "skills/openmc-api-and-scripting/SKILL.md",
+        "skills/openmc-api-and-scripting/references/doc_map.md",
+        "skills/openmc-api-and-scripting/references/source_map.md",
+        "skills/openmc-build-and-install/references/doc_map.md",
+        "skills/openmc-build-and-install/references/source_map.md",
+        "skills/openmc-getting-started/SKILL.md",
+        "skills/openmc-getting-started/references/doc_map.md",
+        "skills/openmc-getting-started/references/source_map.md",
+        "skills/openmc-index/SKILL.md",
+        "skills/openmc-inputs-and-modeling/references/doc_map.md",
+        "skills/openmc-inputs-and-modeling/references/source_map.md",
+        "skills/openmc-io-formats/SKILL.md",
+        "skills/openmc-io-formats/references/doc_map.md",
+        "skills/openmc-io-formats/references/source_map.md",
+        "skills/openmc-parallel-hpc/SKILL.md",
+        "skills/openmc-parallel-hpc/references/doc_map.md",
+        "skills/openmc-parallel-hpc/references/source_map.md",
+        "skills/openmc-releasenotes/references/doc_map.md",
+        "skills/openmc-releasenotes/references/source_map.md",
+        "skills/openmc-simulation-workflows/SKILL.md",
+        "skills/openmc-simulation-workflows/references/doc_map.md",
+        "skills/openmc-simulation-workflows/references/source_map.md",
+        "skills/openmc-tests/SKILL.md",
+        "skills/openmc-tests/references/doc_map.md",
+        "skills/openmc-tests/references/source_map.md",
+        "skills/openmc-theory-and-methods/SKILL.md",
+        "skills/openmc-theory-and-methods/references/doc_map.md",
+        "skills/openmc-theory-and-methods/references/source_map.md",
+        "skills/openmc-usersguide/SKILL.md",
+        "skills/openmc-usersguide/references/doc_map.md",
+        "skills/openmc-usersguide/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs/source",
+      "man/man1"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Mixed C++/Python package: C++ core in src/include and Python API in openmc.",
+      "Use explicit directory lists for deterministic skill generation on this layout.",
+      "Generator script patched in this pass to fix invalid f-string expressions."
+    ],
+    "package_name": "openmc",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "include",
+      "openmc"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc",
+  "run_id": "compile_20260304T174538121817Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "openmc-analysis-and-output",
+      "openmc-api-and-scripting",
+      "openmc-build-and-install",
+      "openmc-developer-guide",
+      "openmc-devguide",
+      "openmc-general",
+      "openmc-getting-started",
+      "openmc-index",
+      "openmc-inputs-and-modeling",
+      "openmc-io-formats",
+      "openmc-license",
+      "openmc-parallel-hpc",
+      "openmc-releasenotes",
+      "openmc-simulation-workflows",
+      "openmc-templates",
+      "openmc-tests",
+      "openmc-theory-and-methods",
+      "openmc-troubleshooting",
+      "openmc-usersguide"
+    ],
+    "core_skill_ids": [
+      "openmc-releasenotes",
+      "openmc-api-and-scripting",
+      "openmc-inputs-and-modeling",
+      "openmc-io-formats",
+      "openmc-build-and-install",
+      "openmc-theory-and-methods"
+    ],
+    "deferred_gaps": [
+      "Manual pages are in man/man1 with .1 extension and are not indexed by the generator's default doc extension list.",
+      "Pass 3 should capture initial coverage metrics in memory since no prior coverage/open-gap history exists.",
+      "Topic trimming/renaming (e.g., releasenotes/templates buckets) is deferred to pass 3 audit."
+    ],
+    "goal": "Generate OpenMC docs-first skills in pass 2 and audit/trim topic routing quality in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Intent-based routing across user, developer, and API questions",
+          "Escalation order: primary docs -> doc_map -> source_map",
+          "Canonical roots for docs, tutorials, tests, and source"
+        ],
+        "reason": "Index routing is required to direct requests to topic skills with docs-first escalation.",
+        "skill_id": "openmc-index",
+        "source_hints": [
+          "docs/source/index.rst",
+          "examples",
+          "tests",
+          "src",
+          "openmc"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Minimal model build and run workflow",
+          "Nuclear data prerequisite and environment setup",
+          "Basic output interpretation entry points"
+        ],
+        "reason": "First-week onboarding questions are high frequency and block all downstream usage.",
+        "skill_id": "openmc-getting-started",
+        "source_hints": [
+          "README.md",
+          "docs/source/usersguide",
+          "examples/pincell"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "CMake options (MPI/OpenMP/optional features)",
+          "Python editable install flow",
+          "Test prerequisites including cross sections and OMP settings"
+        ],
+        "reason": "Build/toolchain and test prerequisites are common blockers.",
+        "skill_id": "openmc-build-and-install",
+        "source_hints": [
+          "CMakeLists.txt",
+          "pyproject.toml",
+          "docs/source/devguide/tests.rst",
+          "tools/ci"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Model construction via Python API and XML formats",
+          "ID management and input validation pathways",
+          "Where C++ geometry/tally implementation lives for deeper inspection"
+        ],
+        "reason": "Geometry/material/tally modeling is the core user workflow.",
+        "skill_id": "openmc-inputs-and-modeling",
+        "source_hints": [
+          "docs/source/usersguide",
+          "docs/source/io_formats",
+          "openmc/model",
+          "openmc/checkvalue.py",
+          "src"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Eigenvalue vs fixed-source settings",
+          "Depletion operator/integrator flow",
+          "Restart/statepoint/sourcepoint workflows"
+        ],
+        "reason": "Run, restart, and depletion flows are frequently requested and error-prone.",
+        "skill_id": "openmc-simulation-workflows",
+        "source_hints": [
+          "docs/source/usersguide/settings.rst",
+          "docs/source/io_formats/statepoint.rst",
+          "openmc/deplete",
+          "tests/regression_tests"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Primary Python API usage surfaces",
+          "C API/ctypes boundary and mapping",
+          "Post-processing objects and data access entry points"
+        ],
+        "reason": "OpenMC relies on Python APIs and ctypes bindings for advanced workflows.",
+        "skill_id": "openmc-api-and-scripting",
+        "source_hints": [
+          "docs/source/pythonapi",
+          "openmc",
+          "openmc/lib",
+          "include/openmc/capi.h"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI/OpenMP build and run controls",
+          "Testing switches for MPI/event mode",
+          "Feature gates for DAGMC/libMesh"
+        ],
+        "reason": "MPI/OpenMP and optional feature flags directly affect runtime behavior and test execution.",
+        "skill_id": "openmc-parallel-hpc",
+        "source_hints": [
+          "CMakeLists.txt",
+          "docs/source/devguide/tests.rst",
+          "src",
+          "tests/regression_tests"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Statepoint/summary/track output formats",
+          "Tally and MGXS analysis paths",
+          "Plot and visualization workflow entry points"
+        ],
+        "reason": "Output interpretation and analysis are critical for validating simulation results.",
+        "skill_id": "openmc-analysis-and-output",
+        "source_hints": [
+          "docs/source/io_formats",
+          "docs/source/usersguide",
+          "openmc/mgxs",
+          "tests/regression_tests/plot"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Consolidate low-signal singleton topics",
+          "Preserve doc/source references while reducing skill count",
+          "Keep index routing clear after merges"
+        ],
+        "reason": "Dry-run indicates multiple narrow one-doc topics; these should be merged to reduce routing noise.",
+        "skill_id": "openmc-usersguide",
+        "source_hints": [
+          "skills/*/references/doc_map.md",
+          "sci-skills-generator/references/generation-rubric.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "openmc-usersguide",
+      "openmc-theory-and-methods",
+      "openmc-tests",
+      "openmc-simulation-workflows",
+      "openmc-releasenotes",
+      "openmc-parallel-hpc"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-usersguide/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-usersguide/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-usersguide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-theory-and-methods/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-tests/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-tests/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-tests/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-simulation-workflows/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-simulation-workflows/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-releasenotes/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-parallel-hpc/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-parallel-hpc/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmc-openmc/skills/openmc-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "openmc-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "openmc-index",
+      "openmc-getting-started",
+      "openmc-build-and-install",
+      "openmc-inputs-and-modeling",
+      "openmc-simulation-workflows",
+      "openmc-api-and-scripting",
+      "openmc-parallel-hpc",
+      "openmc-analysis-and-output",
+      "openmc-usersguide"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 14,
+    "source_inventory": {},
+    "source_links_total": 230,
+    "topic_skills": 13,
+    "warnings": []
+  }
+}
